@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height:1.5em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+*  Begin Domestica Structure Theme
+*/
+
+@font-face {
+	font-family: 'Cardo';
+	src: url("/style/Cardo104s.ttf");
+}
+
+body {
+	font-family: 'Cardo', Georgia, serif;
+	color:#444;
+	-webkit-font-smoothing: antialiased !important;
+	font-size: 20px;
+	background-color: rgb(130,214,251);
+	line-height: 30px;
+}
+
+a, a:visited, a:hover {
+	text-decoration: none;
+	color:#3B61EC;
+}
+
+h1 {
+	font-size: 65px;
+	line-height: 72px;
+}
+
+h2 {
+	font-size: 35px;
+	margin:0;
+	padding:0;
+	line-height: 50px;
+	color:rgb(245, 8, 213);
+}
+
+p {
+	margin-bottom:10px;
+}
+
+ul {
+	margin-bottom:10px;
+}
+
+li {}
+
+li span {
+	width:85px;
+	color:rgb(245, 8, 213);
+	display:inline-block;
+}
+
+header {
+	background-color: rgba(255,255,255,.8);
+	border-bottom:solid rgb(191,185,179) 2px;
+	height:532px;
+	font-size: 35px;
+	line-height: 40px;
+	display: block;
+	position: relative;
+	overflow:hidden;
+	padding: 20px;
+}
+
+header .mask {
+	padding:0;
+	background:rgba(3, 33, 218, 0.22);
+	height:580px;
+	color: rgb(255, 255, 255);
+	-webkit-filter: blur(3px);
+	-webkit-transform: translate3d(0, 0, 0);
+	background-image: url(/style/stablecafe.jpg);
+	background-position: bottom;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	position: absolute;
+	left:0px; top:0px; right:0px; bottom:0px;
+	z-index: 1;
+}
+
+.coverbox {
+	z-index: 2;
+	position:relative;
+	display:inline-block;
+	padding:10px 4px 10px 10px;
+	margin: 20px -9px 0  0;
+	/* border-left:solid 1px transparent; */
+	line-height:85px;
+	/* box-shadow: 1px 1px 2px rgba(0,0,0,.2); */
+	color:rgb(245, 8, 213);
+	background-color: rgba(255,255,255,.7);
+	letter-spacing: 1px;
+	font-size: 55px;
+}
+
+.coverbox.effing-font-fix {
+	margin-right:-10px;
+}
+
+header h1.coverbox {
+	padding:25px;
+}
+
+section {
+	padding: 10px 10px 0 10px;
+	background-color: rgba(255,255,255,.8);
+}
+
+section article {
+	padding: 10px;
+	background-color: white;
+}
+
+section#rsvp {
+	border-bottom:solid rgb(191,185,179) 2px;
+}
+
+section#location {
+	height:300px;
+	background-color: transparent;
+	padding:10px 10px;
+	border-bottom:solid rgb(191,185,179) 2px;
+	cursor: pointer;
+}
+
+section#location h2 {
+	vertical-align: middle;
+	white-space:nowrap;
+	z-index: 2;
+	display:inline-block;
+	position:relative;
+	padding: 10px;
+	margin: 10px 0px;
+	line-height:50px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	color:rgb(245, 8, 213);
+	background-color: rgba(255,255,255,.7);
+	padding:10px;
+	display:none;
+}
+
+nav {
+	background-color: rgba(255,255,255,.8);
+	padding:10px 4px 0 4px;
+	text-align: center;
+}
+
+nav a {
+	width:16%;
+	display: inline-block;
+	background-color:white;
+	padding:10px;
+	color:rgb(191,185,179);
+	margin-right: 4px;
+	text-decoration: none;
+	text-align: left;
+	color:rgb(245, 8, 213);
+}
+
+nav a:last-child {
+	margin-right: 0;
+}
+
+footer {
+	background-image: url(/style/whitneyanderic.jpg);
+	background-position: top;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	height:550px;
+	border:solid rgb(191,185,179) 2px;
+	border-width: 2px 0;
+	margin:10px;
+}
+
+.place-pin {
+	color:rgb(245, 8, 213);
+	font-size: 14px;
+	font-family: 'Cardo', Georgia, serif;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 2;
+	display:inline-block;
+	position:relative;
+	padding: 10px;
+	margin: 10px 0px;
+	line-height:26px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	background-color: rgba(255,255,255,.9);
+	padding:10px;
+}
+
+.place-pin h3 {
+	font-size: 24px;
+}
+
+#map {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity: .7;
+}
+
+#container {
+	position:absolute;
+	z-index: 1;
+	top:0;right:0;bottom:0;left:0;
+	overflow: auto;
+}
+
+/* Mail chimp overides */
+#mc_embed_signup .asterisk, #mc_embed_signup .indicates-required {
+	display: none;
+}
