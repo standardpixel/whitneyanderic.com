@@ -53,7 +53,7 @@ table {
 
 @font-face {
 	font-family: 'Cardo';
-	src: url("/style/Cardo104s.ttf");
+	src: url("Cardo104s.ttf");
 }
 
 body {
@@ -118,7 +118,7 @@ header .mask {
 	color: rgb(255, 255, 255);
 	-webkit-filter: blur(3px);
 	-webkit-transform: translate3d(0, 0, 0);
-	background-image: url(/style/stablecafe.jpg);
+	background-image: url(stablecafe.jpg);
 	background-position: bottom;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -211,7 +211,7 @@ nav a:last-child {
 }
 
 footer {
-	background-image: url(/style/whitneyanderic.jpg);
+	background-image: url(whitneyanderic.jpg);
 	background-position: top;
 	background-size: 100% auto;
 	background-repeat: no-repeat;

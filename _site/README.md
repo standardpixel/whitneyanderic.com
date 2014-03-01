@@ -1,4 +1,4 @@
-StandardPixel.com
+whitneyanderic.com
 ===================
 
-This is my personal homepage
+Whitney & Eric's Wedding website
