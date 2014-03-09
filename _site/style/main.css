@@ -270,3 +270,37 @@ footer section {
 #mc_embed_signup .asterisk, #mc_embed_signup .indicates-required {
 	display: none;
 }
+
+@media (max-device-width : 320px) {
+	header {
+		height: 236px;
+	}
+	header .mask {
+		height: 480px;
+	}
+	.coverbox {
+		z-index: 2;
+		position: relative;
+		display: inline;
+		padding: 10px 4px 10px 10px;
+		margin: 31px 9px 0 0;
+		/* border-left: solid 1px transparent; */
+		line-height: 58px;
+		/* box-shadow: 1px 1px 2px rgba(0,0,0,.2); */
+		color: rgb(245, 8, 213);
+		background-color: rgba(255,255,255,.7);
+		letter-spacing: 1px;
+		font-size: 24px;
+		white-space: pre-wrap;
+	}
+	nav a {
+		width: 280px;
+		margin: 6px;
+	}
+	footer {
+		height: 200px;
+		border-width: 2px 0;
+		padding: 10px;
+		background-color: rgba(255,255,255,.8);
+	}
+}
