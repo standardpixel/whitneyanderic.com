@@ -272,6 +272,10 @@ footer section {
 }
 
 @media (max-device-width : 320px) {
+	body {
+		-webkit-overflow-scrolling: touch;
+		font-size: 15px;
+	}
 	header {
 		height: 236px;
 	}
@@ -302,5 +306,8 @@ footer section {
 		border-width: 2px 0;
 		padding: 10px;
 		background-color: rgba(255,255,255,.8);
+	}
+	footer section {
+		height: 200px;
 	}
 }
