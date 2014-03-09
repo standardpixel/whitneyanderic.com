@@ -129,25 +129,24 @@ header .mask {
 
 .coverbox {
 	z-index: 2;
-	position:relative;
-	display:inline-block;
-	padding:10px 4px 10px 10px;
-	margin: 20px -9px 0  0;
-	/* border-left:solid 1px transparent; */
-	line-height:85px;
+	position: relative;
+	display: inline;
+	padding: 10px 4px 10px 10px;
+	margin: 31px 9px 0 0;
+	/* border-left: solid 1px transparent; */
+	line-height: 99px;
 	/* box-shadow: 1px 1px 2px rgba(0,0,0,.2); */
-	color:rgb(245, 8, 213);
+	color: rgb(245, 8, 213);
 	background-color: rgba(255,255,255,.7);
 	letter-spacing: 1px;
 	font-size: 55px;
-}
-
-.coverbox.effing-font-fix {
-	margin-right:-10px;
+	white-space: pre-wrap;
 }
 
 header h1.coverbox {
 	padding:25px;
+	white-space: pre-line;
+	padding-right: 45px;
 }
 
 section {
@@ -210,15 +209,24 @@ nav a:last-child {
 	margin-right: 0;
 }
 
+nav a:visited, nav a:active {
+	color:rgb(245, 8, 213);
+}
+
 footer {
+	
+	height:550px;
+	border-width: 2px 0;
+	padding:10px;
+	background-color: rgba(255,255,255,.8);
+}
+
+footer section {
 	background-image: url(whitneyanderic.jpg);
 	background-position: top;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	height:550px;
-	border:solid rgb(191,185,179) 2px;
-	border-width: 2px 0;
-	margin:10px;
 }
 
 .place-pin {
