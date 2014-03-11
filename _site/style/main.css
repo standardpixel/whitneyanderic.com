@@ -51,18 +51,13 @@ table {
 *  Begin Domestica Structure Theme
 */
 
-@font-face {
-	font-family: 'Cardo';
-	src: url("Cardo104s.ttf");
-}
-
 body {
-	font-family: 'Cardo', Georgia, serif;
 	color:#444;
 	-webkit-font-smoothing: antialiased !important;
-	font-size: 20px;
+	font-size: 13px;
 	background-color: rgb(130,214,251);
 	line-height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 a, a:visited, a:hover {
@@ -73,6 +68,7 @@ a, a:visited, a:hover {
 h1 {
 	font-size: 65px;
 	line-height: 72px;
+	font-family: ".tk-adobe-garamond-pro-1",serif;
 }
 
 h2 {
@@ -81,6 +77,7 @@ h2 {
 	padding:0;
 	line-height: 50px;
 	color:rgb(245, 8, 213);
+	font-family: ".tk-adobe-garamond-pro-1",serif;
 }
 
 p {
@@ -116,7 +113,6 @@ header .mask {
 	background:rgba(3, 33, 218, 0.22);
 	height:580px;
 	color: rgb(255, 255, 255);
-	-webkit-filter: blur(3px);
 	-webkit-transform: translate3d(0, 0, 0);
 	background-image: url(stablecafe.jpg);
 	background-position: bottom;
@@ -134,13 +130,14 @@ header .mask {
 	padding: 10px 4px 10px 10px;
 	margin: 31px 9px 0 0;
 	/* border-left: solid 1px transparent; */
-	line-height: 99px;
+	line-height: 126px;
 	/* box-shadow: 1px 1px 2px rgba(0,0,0,.2); */
 	color: rgb(245, 8, 213);
 	background-color: rgba(255,255,255,.7);
 	letter-spacing: 1px;
-	font-size: 55px;
+	font-size:69px;
 	white-space: pre-wrap;
+	font-family: ".tk-adobe-garamond-pro-1",serif;
 }
 
 header h1.coverbox {
@@ -203,6 +200,7 @@ nav a {
 	text-decoration: none;
 	text-align: left;
 	color:rgb(245, 8, 213);
+	font-family: ".tk-adobe-garamond-pro-1",serif;
 }
 
 nav a:last-child {
