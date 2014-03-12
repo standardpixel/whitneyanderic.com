@@ -295,7 +295,7 @@ footer section {
     font-size: 12px;
   }
 
-@media (max-device-width : 320px) {
+@media (max-width : 320px) {
 	body {
 		-webkit-overflow-scrolling: touch;
 		font-size: 15px;
