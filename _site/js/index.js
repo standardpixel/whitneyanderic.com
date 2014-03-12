@@ -1,11 +1,13 @@
 (function() {
-	
+
 	var layer  = new L.StamenTileLayer("watercolor"),
-		    center = new L.LatLng(37.763217,-122.415226), 
+		    center = new L.LatLng(37.763217,-122.415226),
 		    map    = new L.Map("map", {
 		    	center: center,
 		    	zoom: 13,
-		    	zoomControl: false
+		    	zoomControl: false,
+					scrollWheelZoom: false,
+					doubleClickZoom: false
 			}),
 			place_pin = new L.divIcon({
 				className: 'place-pin',

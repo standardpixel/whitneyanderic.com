@@ -60,6 +60,11 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 a, a:visited, a:hover {
 	text-decoration: none;
 	color:#3B61EC;
@@ -209,6 +214,7 @@ nav a {
 	text-align: left;
 	color:rgb(245, 8, 213);
 	font-family: ".tk-adobe-garamond-pro-1",serif;
+  font-size: 20px;
 }
 
 nav a:last-child {
@@ -277,6 +283,17 @@ footer section {
 	display: none;
 }
 
+@media (max-width : 757px) {
+  .coverbox {
+    font-size: 46px;
+    line-height: 95px;
+  }
+  nav a {
+    width: 14%;
+    text-align: center;
+    font-size: 12px;
+  }
+
 @media (max-device-width : 320px) {
 	body {
 		-webkit-overflow-scrolling: touch;
@@ -308,7 +325,7 @@ footer section {
 		margin: 6px;
 	}
   section#rsvp .scroll-wrapper {
-    height:651px;
+    height:639px;
   }
 	footer {
 		height: 200px;
