@@ -104,13 +104,13 @@ li span {
 header {
 	background-color: rgba(255,255,255,.8);
 	border-bottom:solid rgb(191,185,179) 2px;
-	height:532px;
+	height:380px;
 	font-size: 35px;
 	line-height: 40px;
 	display: block;
 	position: relative;
 	overflow:hidden;
-	padding: 20px;
+	padding: 12px;
 }
 
 header .mask {
